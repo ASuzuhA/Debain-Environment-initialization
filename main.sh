@@ -19,7 +19,7 @@ do
 
             # 显示可选的更新源文件列表
             echo "可选的更新源文件:"
-            select source_file in "source1.list" "source2.list"
+            select source_file in "阿里云源.list" "清华大学源.list"
             do
                 case $REPLY in
                     1)
