@@ -13,8 +13,8 @@ do
             ;;
         2)
             # 下载不同的更新源文件
-            wget -O source1.list https://example.com/source1.list
-            wget -O source2.list https://example.com/source2.list
+            wget -O 阿里云源.list https://github.com/ASuzuhA/Debain-Environment-initialization/blob/ae79a40933d2bf2cab0c4467fec8e6fa30a19d2d/%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90.list
+            wget -O 清华大学源.list https://github.com/ASuzuhA/Debain-Environment-initialization/blob/ae79a40933d2bf2cab0c4467fec8e6fa30a19d2d/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E6%BA%90.list
             # 可继续添加其他更新源文件的下载链接
 
             # 显示可选的更新源文件列表
@@ -23,11 +23,11 @@ do
             do
                 case $REPLY in
                     1)
-                        cp source1.list /etc/apt/sources.list
+                        cp 阿里云源.list /etc/apt/sources.list
                         break
                         ;;
                     2)
-                        cp source2.list /etc/apt/sources.list
+                        cp 清华大学源.list /etc/apt/sources.list
                         break
                         ;;
                     *)
