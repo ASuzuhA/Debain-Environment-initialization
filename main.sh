@@ -12,10 +12,6 @@ do
             echo "已允许系统以root形式进行SSH连接."
             ;;
         2)
-            # 下载不同的更新源文件
-            wget -O 阿里云源.list https://github.com/ASuzuhA/Debain-Environment-initialization/blob/ae79a40933d2bf2cab0c4467fec8e6fa30a19d2d/%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90.list
-            wget -O 清华大学源.list https://github.com/ASuzuhA/Debain-Environment-initialization/blob/ae79a40933d2bf2cab0c4467fec8e6fa30a19d2d/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E6%BA%90.list
-            # 可继续添加其他更新源文件的下载链接
 
             # 显示可选的更新源文件列表
             echo "可选的更新源文件:"
