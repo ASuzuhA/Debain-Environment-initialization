@@ -35,7 +35,6 @@ do
 
             # 执行更新命令
             apt update
-            apt upgrade -y
             ;;
         3)
             # 安装必要工具
